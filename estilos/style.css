@@ -1,0 +1,16 @@
+
+footer{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+#navbarNav{
+    justify-content: flex-end;
+}
