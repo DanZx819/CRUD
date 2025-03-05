@@ -21,7 +21,7 @@
             
             ?>
             <td><a href="?pagina=editar_cidade&editar=<?php echo $linha['id_cidade'];?>">Editar</a></td>
-            <td><a href="?pagina=deletar_cidade&id_cidade=<?php echo $linha['id_cidade'];?>">Excluir</a></td>
+            <td><a href="?pagina=deleta_cidade&id_cidade=<?php echo $linha['id_cidade'];?>">Excluir</a></td>
 
             <?php }?>
         </tbody>

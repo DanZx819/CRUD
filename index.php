@@ -21,6 +21,14 @@ if($pagina == 'cidades'){
     include 'inserir_cidade.php';
 }elseif($pagina == 'inserir_usuario'){
     include 'inserir_usuario.php';
+}elseif($pagina == 'inserir_cidade_usuario'){
+    include 'inserir_cidade_usuario.php';
+}elseif($pagina == 'deleta_cidade'){
+    include 'deleta_cidade.php';
+}elseif($pagina == 'deleta_usuario'){
+    include 'deleta_usuario.php';
+}elseif($pagina == 'editar_usuario'){
+    include 'editar_usuario.php';
 }
 else{
     include 'views/home.php';

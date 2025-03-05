@@ -12,8 +12,8 @@
             echo '<tr><td>'. $linha['nome_usuario'].'</td>';
             echo '<td>'. $linha['cpf_usuario'].'</td>';
         ?>
-        <td><a href="?pagina=editar_usuario&editar=<?php echo $linha['id_usuario'];?>">Editar</a></td>
-        <td><a href="?pagina=editar_usuario&id_usuario=<?php echo $linha['id_usuario'];?>">Excluir</a></td>
+        <td><a href="?pagina=inserir_usuario&editar=<?php echo $linha['id_usuario'];?>">Editar</a></td>
+        <td><a href="?pagina=deleta_usuario&id_usuario=<?php echo $linha['id_usuario'];?>">Excluir</a></td>
         <?php 
         }
         ?>
