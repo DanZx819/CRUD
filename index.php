@@ -29,6 +29,8 @@ if($pagina == 'cidades'){
     include 'deleta_usuario.php';
 }elseif($pagina == 'editar_usuario'){
     include 'editar_usuario.php';
+}elseif($pagina == 'edita_cidade'){
+    include 'edita_cidade.php';
 }
 else{
     include 'views/home.php';
