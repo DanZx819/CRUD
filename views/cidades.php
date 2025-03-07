@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <table class="table table-bordered border border-black">
+    <table class="table table-bordered border border-black" id="cidades">
         <thead>
             <th>Nome</th>
             <th>CEP</th>
@@ -20,8 +20,8 @@
                 echo '<td>'. $linha['cep_cidade'].'</td>';
             
             ?>
-            <td><a href="?pagina=inserir_cidade&editar=<?php echo $linha['id_cidade'];?>">Editar</a></td>
-            <td><a href="?pagina=deleta_cidade&id_cidade=<?php echo $linha['id_cidade'];?>">Excluir</a></td>
+            <td><a href="?pagina=inserir_cidade&editar=<?php echo $linha['id_cidade'];?>" class="text-success"><i class="fa-solid fa-user-pen" ></i></a></td>
+            <td><a href="?pagina=deleta_cidade&id_cidade=<?php echo $linha['id_cidade'];?>" class="text-danger"><i class="fa-solid fa-user-slash"></i></a></td>
 
             <?php }?>
         </tbody>

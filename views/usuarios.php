@@ -1,6 +1,6 @@
 
 
-<table class="table table-bordered border border-black">
+<table class="table table-bordered border border-black" id="usuarios">
     <thead>
         <th>Nome</th>
         <th>CPF</th>
@@ -12,8 +12,8 @@
             echo '<tr><td>'. $linha['nome_usuario'].'</td>';
             echo '<td>'. $linha['cpf_usuario'].'</td>';
         ?>
-        <td><a href="?pagina=inserir_usuario&editar=<?php echo $linha['id_usuario'];?>">Editar</a></td>
-        <td><a href="?pagina=deleta_usuario&id_usuario=<?php echo $linha['id_usuario'];?>">Excluir</a></td>
+        <td ><a href="?pagina=inserir_usuario&editar=<?php echo $linha['id_usuario'];?>" class="text-success"><i class="fa-solid fa-user-pen" ></i></a></td>
+        <td><a href="?pagina=deleta_usuario&id_usuario=<?php echo $linha['id_usuario'];?>" class="text-danger"><i class="fa-solid fa-user-slash"></i></a></td>
         <?php 
         }
         ?>
